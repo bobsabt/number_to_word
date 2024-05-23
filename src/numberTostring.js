@@ -8,7 +8,7 @@ const tens = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", 
 //Array of numbers bigger then tens
 const hundreds = ["", "thousand", "million", "billion"];
 
-function numberTostring(input){
+export function numberTostring(input){
     let tempResult = "";
 
     //Handle zero
